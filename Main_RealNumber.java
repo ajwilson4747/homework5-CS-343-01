@@ -143,6 +143,7 @@ public class Main_RealNumber {
 		int sd=0; 
 		while (myList.getHead() !=null) {
 			sd+=Math.pow(myList.getHead().myInt - overallMean, 2);
+			break;
 		}
 		return (int) Math.sqrt(sd/lengthOfll);
 	}
